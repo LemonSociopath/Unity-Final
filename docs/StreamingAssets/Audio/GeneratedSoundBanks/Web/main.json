@@ -1,0 +1,106 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Web",
+  "BasePlatform": "Web",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{5A6134EF-9537-4D34-9C0C-9CD32CEF245C}",
+    "Language": "SFX",
+    "Hash": "{26BF844D-953A-A486-8B38-28B66BB2CFD5}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
+    "ShortName": "main",
+    "Path": "main.bnk",
+    "Media": [
+     {
+      "Id": "772978541",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ZapSound.wav",
+      "CachePath": "4B/{4B922ED5-9863-C498-FECA-C821EC6A203E}.wem"
+     },
+     {
+      "Id": "984310611",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MenuMusic.wav",
+      "CachePath": "D6/{D6989786-48BC-3F49-564F-DB2AA38DB6C6}.wem"
+     },
+     {
+      "Id": "1069232402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GameMusic.wav",
+      "CachePath": "6C/{6CF78397-DF85-C5AC-6C87-C917098B2125}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2653529179",
+       "Name": "Three_Voices",
+       "ObjectPath": "\\Effects\\Factory Effects\\Harmonizer\\Three_Voices",
+       "GUID": "{71CA20BE-8C1D-4A0C-92AF-BFCE183D5651}",
+       "LibName": "Wwise Harmonizer",
+       "LibId": "9043971"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3586746077",
+      "Name": "Play_GameMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GameMusic",
+      "GUID": "{FE54E40B-E7A4-4263-B337-4C57EC12F39E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1069232402"
+       }
+      ]
+     },
+     {
+      "Id": "2570041344",
+      "Name": "Play_MenuMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MenuMusic",
+      "GUID": "{17FCFC1A-EB6C-4630-B193-AA3C3CE099B3}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "984310611"
+       }
+      ]
+     },
+     {
+      "Id": "3581540628",
+      "Name": "Play_ZapSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ZapSound",
+      "GUID": "{6B9C2C8E-7B79-4D8C-9552-09C65A16B7F4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.21318",
+      "DurationMax": "1.21318",
+      "MediaRefs": [
+       {
+        "Id": "772978541"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2653529179"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8C7927F0-F797-7440-B526-F801914D8AB5}"
+ }
+}

@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2570041344	Play_MenuMusic			\Default Work Unit\Play_MenuMusic	
+	3581540628	Play_ZapSound			\Default Work Unit\Play_ZapSound	
+	3586746077	Play_GameMusic			\Default Work Unit\Play_GameMusic	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2653529179	Three_Voices	Wwise Harmonizer			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	772978541	ZapSound	.cache\4B\{4B922ED5-9863-C498-FECA-C821EC6A203E}.wem		\Containers\Default Work Unit\ZapSound		87460
+	984310611	MenuMusic	.cache\D6\{D6989786-48BC-3F49-564F-DB2AA38DB6C6}.wem		\Containers\Default Work Unit\MenuMusic		9310278
+	1069232402	GameMusic	.cache\6C\{6CF78397-DF85-C5AC-6C87-C917098B2125}.wem		\Containers\Default Work Unit\GameMusic		18014280
+
